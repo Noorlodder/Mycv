@@ -2,27 +2,30 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=PT+Serif&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'PT Serif', serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #fffefc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #C7A279;
+	color:white;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FFFFFF;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #F2E5D5;
+	color:#8C5423;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +39,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #A6855D;
 }
 
 .biography-details li, .skill-list li {
