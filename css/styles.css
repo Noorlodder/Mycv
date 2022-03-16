@@ -3,6 +3,7 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 /* Styles for the body */
 
@@ -15,6 +16,7 @@ font-family: 'PT Serif', serif;
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
+	font-family: 'Oswald', sans-serif;
     background-color: #C7A279;
 	color:white;
 }
